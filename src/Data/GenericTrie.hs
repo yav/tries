@@ -46,12 +46,13 @@ module Data.GenericTrie
   , insertWith
   , insertWith'
   , delete
-  , at 
+  , at
 
   -- ** Queries
   , member
   , notMember
   , null
+  , lookup
 
   -- ** Folding
   , foldWithKey
